@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-23T15:54:56 SGT" name="Default suite" finished-at="2025-08-23T15:55:13 SGT" duration-ms="16881">
+    <groups>
+    </groups>
+    <test started-at="2025-08-23T15:54:56 SGT" name="Default test" finished-at="2025-08-23T15:55:13 SGT" duration-ms="16881">
+      <class name="pinkcloud.ExtentReports.ExtentReportTest">
+        <test-method is-config="true" signature="config()[pri:0, instance:pinkcloud.ExtentReports.ExtentReportTest@2d710f1a]" started-at="2025-08-23T15:54:56 SGT" name="config" finished-at="2025-08-23T15:54:57 SGT" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="extentReport()[pri:0, instance:pinkcloud.ExtentReports.ExtentReportTest@2d710f1a]" started-at="2025-08-23T15:54:57 SGT" name="extentReport" finished-at="2025-08-23T15:55:13 SGT" duration-ms="16363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReport -->
+      </class> <!-- pinkcloud.ExtentReports.ExtentReportTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
