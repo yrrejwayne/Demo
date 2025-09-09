@@ -11,7 +11,7 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
 public class ExtentReportTest {
 	
-	ExtentReports report;
+	ExtentReports extent;
 
 	@BeforeTest
 	public void config() {
@@ -23,9 +23,9 @@ public class ExtentReportTest {
 		reporter.config().setReportName("Automation Framework Test Results");
 		
 		// Attach created report to ExtentReports class | Responsible for driving test executions to the report
-		report = new ExtentReports();
-		report.attachReporter(reporter);
-		report.setSystemInfo("Tester", "Yrrej Villaflores");
+		extent = new ExtentReports();
+		extent.attachReporter(reporter);
+		extent.setSystemInfo("Tester", "Yrrej Villaflores");
 	}
 
 	@Test
@@ -38,7 +38,7 @@ public class ExtentReportTest {
 		// Create new test on the reporting file 
 		// Monitor result status of test cases and send it to the report file 
 		// ExtentReport will create Object from createTest and catch it using ExtentTest
-		ExtentTest test = report.createTest("Demo");
+		ExtentTest test = extent.createTest("Demo");
 		
 		System.out.println(driver.getTitle());
 		driver.quit();
@@ -47,7 +47,7 @@ public class ExtentReportTest {
 		test.fail("Fail");
 		
 		// All test case are done and and report will be generated
-		report.flush();
+		extent.flush();
 
 	}
 
