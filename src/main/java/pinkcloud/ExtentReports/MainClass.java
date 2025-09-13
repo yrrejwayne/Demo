@@ -8,5 +8,15 @@ public class MainClass {
 	public void test1() {
 		System.out.println("test");
 	}
+	
+	@Test
+	public void test2() {
+		System.out.println("test");
+	}
+	
+	@Test
+	public void test3() {
+		System.out.println("test");
+	}
 
 }
